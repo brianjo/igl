@@ -1,2 +1,2 @@
 INPUT = ../IGLU
-OUTPUT_DIRECTORY = ./build/html/API
+OUTPUT_DIRECTORY = ./build/doxygen
