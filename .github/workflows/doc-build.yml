@@ -37,7 +37,7 @@ jobs:
         pip install -r requirements.txt
         make html
         doxygen Doxyfile
-        cp -R ./build/doxygen/html ./docs/build/html/API
+        cp -R ./build/doxygen/html ./docs/build/html/API/
     - name: Get output time
       run: echo "The time was ${{ steps.build.outputs.time }}"
     - name: Deploy
