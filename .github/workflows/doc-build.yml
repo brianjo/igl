@@ -39,7 +39,7 @@ jobs:
         make html
         doxygen Doxyfile
         mkdir -p ./build/html/API
-        cp -R ./build/doxygen/html .build/html/API/
+        cp -R ./build/doxygen/html ./build/html/API/
     - name: Get output time
       run: echo "The time was ${{ steps.build.outputs.time }}"
     - name: Deploy
